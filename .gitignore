@@ -1,0 +1,21 @@
+# Függőségek és build kimenetek (minden alkalmazásban a saját .gitignore is)
+node_modules
+dist
+dist-ssr
+*.local
+
+# Logok
+logs
+*.log
+npm-debug.log*
+
+# Szerkesztő és operációs rendszer fájlok
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
